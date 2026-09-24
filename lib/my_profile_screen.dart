@@ -6,8 +6,9 @@ class MyProfileScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xFFFEF7FF),
       appBar: AppBar(
-        backgroundColor: Color(0xFFFFD214),
+        backgroundColor: Color(0xFFFFC008),
         title: Text("My Profile"),
         actions: [
           IconButton(onPressed: () {}, icon: Icon(Icons.add)),
@@ -24,11 +25,11 @@ class MyProfileScreen extends StatelessWidget {
             Column(
               children: [
                 CircleAvatar(
-                  radius: 75,
+                  radius: 120,
                   backgroundColor: Color(0xFFEAE6FF),
                   child: Icon(
                     Icons.icecream_outlined,
-                    size: 65,
+                    size: 150,
                     color: Color(0xFF2E004F),
                   ),
                 ),
@@ -37,7 +38,7 @@ class MyProfileScreen extends StatelessWidget {
                   "Ice cream is very delicious right?",
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    fontSize: 18,
+                    fontSize: 20,
                     fontWeight: FontWeight.w600,
                     color: Colors.black87,
                   ),
@@ -47,16 +48,16 @@ class MyProfileScreen extends StatelessWidget {
             Column(
               children: [
                 CircleAvatar(
-                  radius: 75,
+                  radius: 120,
                   backgroundColor: Color(0xFFEAE6FF),
-                  child: Icon(Icons.code, size: 65, color: Color(0xFF2E004F)),
+                  child: Icon(Icons.code, size: 150, color: Color(0xFF2E004F),),
                 ),
                 SizedBox(height: 20),
                 Text(
                   "Programming is not boring if you love it",
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    fontSize: 18,
+                    fontSize: 20,
                     fontWeight: FontWeight.w600,
                     color: Colors.black87,
                   ),
