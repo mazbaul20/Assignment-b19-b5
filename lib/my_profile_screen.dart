@@ -26,7 +26,7 @@ class MyProfileScreen extends StatelessWidget {
               children: [
                 CircleAvatar(
                   radius: 120,
-                  backgroundColor: Color(0xFFEAE6FF),
+                  backgroundColor: Color(0xFFEADDFF),
                   child: Icon(
                     Icons.icecream_outlined,
                     size: 150,
@@ -49,7 +49,7 @@ class MyProfileScreen extends StatelessWidget {
               children: [
                 CircleAvatar(
                   radius: 120,
-                  backgroundColor: Color(0xFFEAE6FF),
+                  backgroundColor: Color(0xFFEADDFF),
                   child: Icon(Icons.code, size: 150, color: Color(0xFF2E004F),),
                 ),
                 SizedBox(height: 20),
